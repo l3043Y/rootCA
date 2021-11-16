@@ -1,0 +1,21 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = req_distinguished_name
+C=IN
+ST=Random
+L=Random
+O=Random
+OU=Random
+emailAddress=boreyc2013@gmail.com
+CN=vp.start.com
+
+[req_distinguished_name]
+countryName            = KH
+stateOrProvinceName    = KH
+localityName           = KH
+organizationName       = VP Start
+organizationalUnitName = TPF
+commonName             = vp.start.com
+0.emailAddress         = boreyc2013@gmail.com
